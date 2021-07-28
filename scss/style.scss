@@ -1,0 +1,236 @@
+
+@import  "nnav";
+@import "inicio";
+@import "custom";
+@import "../node_modules/scss/bootstrap.scss";
+
+$bg-perso1: #34B63B;
+
+p, .font2{
+	font-family: 'Roboto', sans-serif;
+}
+
+.title-ita{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+.text-grey{
+	color: #464646;
+}
+
+.border-green{
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.button-shadow{
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+// @import "articulos";
+
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer {
+	 a {
+		text-decoration: none;
+		color: #bfbfbf;
+		padding-right: 25px;
+	}
+}
+
+
+.text-grey {
+	color: #bfbfbf;
+}
+
+
+.phone{
+	display: none;
+}
+
+.border-limited{
+	border-bottom: 10rem solid #111111;
+}
+
+  
+.price{
+    font-weight: 100;
+}
+
+  .subprice {
+	font-size: 20px;
+    font-weight: 100;
+
+  }
+
+.button-p:hover{
+	color: #27882b;
+}
+
+
+
+.border-l-g{
+    border-left: 4px solid #2d9d33;
+}
+
+.border-b-g{
+	border-bottom: 1px solid #44D62C;
+
+}
+
+
+.cardF{
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+fieldset.active {
+    display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+
+
+.product-pic {
+    padding-left: auto;
+    padding-right: auto;
+
+}
+
+.thumbnails {
+    position: absolute
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.tb {
+    border: 1px solid grey;
+    margin: 2px;
+    opacity: 0.4;
+    cursor: pointer
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.thumbnail-img {
+    width: 60px;
+    height: 60px
+}
+
+
+.bg-pp-1{
+	background-image: url("../assets/hunstman.jpg");
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	border-right: 5px solid black;
+}
+
+.bg-pp-2{
+	background-image: url("../assets/viper.jpg");
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: top;
+	border-left: 5px solid black;
+}
+
+.bg-form{
+	background-image: url("../assets/razerBG.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.map{
+	height: 390px;
+}
+
+
+// 1024px //
+
+@media screen and (max-width: 1024px) {
+	.bg-p-1 {
+		border: 0px;
+	}
+	.bg-p-2 {
+		border: 0px;
+		border-top: 10px solid #1c6420;
+	}
+	.hc {
+		display: none;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	.phone{
+		display: block;
+	}
+
+	.border-l-g {
+		border-left: 0px solid;
+		border-top: 4px solid #2d9d33; 
+	}
+	.bg-pp-1 {
+		border: 0px;
+	}
+	.bg-pp-2 {
+		border: 0px;
+		border-top: 10px solid #1c6420;
+	}
+}
+
+
+// 991px //
+
+@media screen and (max-width: 991px) {
+	.vision {
+		display: block;
+	}
+	.video-none {
+		display: none;
+	}
+	.hc {
+		display: inline;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	.phone{
+		display: block;
+	}
+
+	.bg-p-2 {
+		background-position-x: center;
+		
+	}
+
+	.bg-pp-1 {
+		border: 0px;
+		background-size: cover;
+		height: 600px;
+	}
+	.bg-pp-2 {
+		border: 0px;
+		border-top: 10px solid #1c6420;
+		background-position-x: center;
+		height: 600px;
+	}
+	
+}

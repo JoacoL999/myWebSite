@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAClC,AAAA,OAAO,CAAC;IACP,OAAO,EAAE,KAAK;GACd;EACD,AAAA,YAAY,CAAC;IACZ,OAAO,EAAE,IAAI;GACb;EACD,AAAA,GAAG,CAAC;IACH,OAAO,EAAE,MAAM;GACf;EACD,AAAA,OAAO,CAAC;IACP,qBAAqB,EAAE,MAAM;GAC7B",
+    "sources": [
+        "../scss/screen991.scss"
+    ],
+    "names": [],
+    "file": "screen991.css"
+}

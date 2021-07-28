@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+  .bg-p-1 {
+    border: 0px;
+  }
+  .bg-p-2 {
+    border: 0px;
+    border-top: 10px solid #1c6420;
+  }
+  .hc {
+    display: none;
+  }
+  .border-l-g {
+    border-left: 0px solid;
+    border-top: 4px solid #2d9d33;
+  }
+}
+/*# sourceMappingURL=screen1024.css.map */

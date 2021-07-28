@@ -1,0 +1,15 @@
+@media screen and (max-width: 991px) {
+  .vision {
+    display: block;
+  }
+  .video-fluid {
+    display: none;
+  }
+  .hc {
+    display: inline;
+  }
+  .bg-p-2 {
+    background-position-x: center;
+  }
+}
+/*# sourceMappingURL=screen991.css.map */
