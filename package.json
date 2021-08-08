@@ -1,0 +1,36 @@
+{
+  "name": "hardware-caballito",
+  "version": "1.0.0",
+  "description": "Sitio web de ventas online sobre articulos de computacion, orientado al gaming, y las ultimas tecnologias, con los mejores precios del mercado",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+      },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoacoL999/myWebSite.git"
+  },
+  "keywords": [
+    "Tecnologia",
+    "PC",
+    "Gaming",
+    "Perifericos",
+    "Computacion",
+    "GPU",
+    "Procesadores"
+  ],
+  "author": "Joaquin J. Lucchetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoacoL999/myWebSite/issues"
+  },
+  "homepage": "https://github.com/JoacoL999/myWebSite#readme"
+}
