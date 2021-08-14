@@ -234,3 +234,44 @@ fieldset {
 	}
 	
 }
+
+// 355px //
+
+@media screen and (max-width: 355px) {
+	.vision {
+		display: block;
+	}
+	.video-none {
+		display: none;
+	}
+	.hc {
+		display: inline;
+		font-size: 22px;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	.phone{
+		display: block;
+	}
+
+	.bg-p-2 {
+		background-position-x: center;
+		
+	}
+
+	.bg-pp-1 {
+		border: 0px;
+		background-size: cover;
+		height: 600px;
+	}
+	.bg-pp-2 {
+		border: 0px;
+		border-top: 10px solid #1c6420;
+		background-position-x: center;
+		height: 600px;
+	}
+	
+}
