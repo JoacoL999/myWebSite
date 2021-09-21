@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "tar": ">=6.1.9"
     "node-sass": "^6.0.1"
   },
   
