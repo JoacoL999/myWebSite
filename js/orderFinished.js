@@ -123,7 +123,7 @@ $('#payNow').click(function (e) {
             timer: 1900
 
         }).then(function(){
-            window.location = 'hardware.html'
+            window.location = 'index.html'
         }) 
     } else if(named.value === '' || lastNamed.value === '' || emaild.value === ''){
 
@@ -149,7 +149,7 @@ $('#payNow').click(function (e) {
 
         }).then(function(){
             localStorage.clear()
-            window.location = 'hardware.html'
+            window.location = 'index.html'
         }) 
         }
     
