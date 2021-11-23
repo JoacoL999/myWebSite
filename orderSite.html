@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8adb06ebfc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Titillium+Web:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/perso-style.css">
+
+    <title>Hardware Caballito</title>
+    <meta name="description"
+        content="Pagina dedicada al mundo GAMER y todo lo que le rodea, donde podrás encontrar las ultimas novedades al mejor precio y con envío a todo el país.">
+    <meta name="keywords"
+        content="Hardware, Gamer, Placas de videos, Procesadores, Nvidia, AMD, Radeon, Ryzen, Intel, RayTracing, DLSS, AMD FSR">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-newdark shadow-lg text-uppercase py-lg-2">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="hc text-light my-1">Hardware Caballito</h1>
+                <div class="justify-content-center collapse navbar-collapse lead ms-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link px-4" href="index.html">Inicio</a>
+                        <a class="nav-link px-4" href="hardware.html">Hardware</a>
+                        <a class="nav-link px-4" href="perifericos.html">Perifericos</a>
+                        <a class="nav-link px-4" href="notebookspc.html">Notebooks y PC</a>
+                        <a class="nav-link px-4" href="nosotros.html">Nosotros</a>
+                        <button class="hc mybtn1 btn-green " type="button" data-bs-toggle="offcanvas" data-bs-target="#shopping"
+                            aria-controls="shopping"><i class="fas fa-shopping-cart cartM text-newdark"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <button class="myBTN pad" type="button" data-bs-toggle="offcanvas" data-bs-target="#shopping"
+                aria-controls="shopping"><i class="fas fa-shopping-cart cartM pe-3"></i>
+              </button>
+
+            </div>
+            
+        </nav>
+    </header>
+    <main class="container-fluid bg-dark">
+        <article class="row perso-empty">
+            <div class="col-xl-3 bg-order desktop">
+            </div>
+            <div class="col-xl-9 bg-dark m-0 p-0">
+                <div class="d-flex flex-column">
+                <div class="bg-secondary text-center pb-2 mb-5">
+                    <h1 class="title-ita text-green pt-3">Carrito de compras</h1>
+                    <p class="text-grey">Estas a menos de 2 minutos de comprar lo que querias!!</p>
+            </div>
+            <form action="" class="text-light title-ita d-flex flex-row justify-content-around" method="POST">
+                <div class="mb-4 col-3 text-center">
+                  <label for="name" class="form-label" >Nombre</label>
+                  <input type="text" name="name" class="form-control" placeholder="Nombre" id="named">
+                </div>
+                <div class="mb-4 col-3 text-center">
+                  <label for="lastname" class="form-label">Apellido</label>
+                  <input type="text" name="lastname" class="form-control" placeholder="Apellido" id="lastNamed">
+              </div>
+              <div class="mb-4 col-3 text-center">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" name="name" class="form-control" placeholder="Email" id="emaild">
+              </div>
+      </form>
+      <div class="overflow-auto table-h me-1">
+      <table class="mt-4 table table-newdark text-light font2"  id="table-shop">
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>PRODUCTO</td>
+            <td>PRECIO C/U</td>
+            <td>CANTIDAD</td>
+            <td>SUBTOTAL</td>
+            <td></td>
+            <td>Eliminar</td>
+            
+          </tr>
+        </thead>
+        
+        <tbody id="tbody">
+        </tbody>
+        
+      </table>
+    </div>
+                 <h2 class="text-light text-center font2">Precio Final: <span id="total"></span></h2>  
+                <button class="paybtn btn btn-green w-50 p-3 ms-auto me-auto align-bottom mt-lg-5" id="payNow">Comprar ahora</button>
+
+    </div>
+        </article>
+
+        
+
+        
+    </main>
+
+    <footer class="py-lg-3 bg-dark container-fluid text-grey">
+        <div class="row">
+            <div class="col-12 col-xl-6">
+                <span class=" ">Copyright © 2021 -templated- All rights reserved.</span>
+            </div>
+            <div class=" footer text-end col-12 col-xl-6 text-grey d-flex d-lg-inline-block ">
+                <a href="#">Legal Terms</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Google Maps</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/8adb06ebfc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/orderFinished.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+
+
+</body>
+
+</html>

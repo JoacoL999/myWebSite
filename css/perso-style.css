@@ -1,0 +1,47 @@
+html, body
+{
+    height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+main
+{
+    
+    height:100%;
+
+}
+
+.row{
+    height: 100%;
+}
+
+.table-h{
+
+    height: 42vh;
+    width: auto;
+    padding-right: 1%;
+
+}
+
+
+
+/* Let's get this party started */
+
+@media screen and (max-width: 991px) {
+
+    body {
+
+        height: auto;
+    }
+
+
+
+
+
+
+}
+
+

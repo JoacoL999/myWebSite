@@ -1,0 +1,662 @@
+[
+    {
+        "hardware": "CPU",
+        "brand": "Intel®",
+        "subBrand": "Intel® Core™ I3",
+        "model": "Core™ I3-1010SF",
+        "name": "Core™ I3- 1010SF Socket 1200 Gen 10",
+        "id": "I3",
+        "price": 20008,
+        "baseFrec": "3,70 GHz",
+        "turboFrec": "4,40 GHz",
+        "cores": "4",
+        "threads": "8",
+        "cache": "6 MB",
+        "pic1": "assets/I3/i31.jpg",
+        "pic2": "assets/I3/i32.png",
+        "pic3": "assets/I3/i33.png",
+        "thumbp": "assets/i310th.png",
+        "p1": 31,
+        "p2": 32,
+        "p3": 33
+        
+
+    },
+
+    {
+        "hardware": "CPU",
+        "brand": "Intel®",
+        "subBrand": "Intel® Core™ I5",
+        "model": "Core™ I5-11600K",
+        "name": "Core™ I5-11600k Socket 1200 Gen 11",
+        "id": "I5",
+        "price": 40810,
+        "baseFrec": "3,90 GHz",
+        "turboFrec": "4,90 GHz",
+        "cores": "6",
+        "threads": "12",
+        "cache": "12 MB",
+        "pic1": "assets/I5/i51.jpg",
+        "pic2": "assets/I5/i52.png",
+        "pic3": "assets/I5/i53.png",
+        "thumbp": "assets/i51.jpg",
+        "p1": 51,
+        "p2": 52,
+        "p3": 53
+
+    },
+
+    {
+        "hardware": "CPU",
+        "brand": "Intel®",
+        "subBrand": "Intel® Core™ I7",
+        "model": "Core™ I7-11700K",
+        "name": "Core™ I7-11700k Socket 1200 Gen 11",
+        "id": "I7",
+        "price": 56110,
+        "baseFrec": "3,60 GHz",
+        "turboFrec": "5,00 GHz",
+        "cores": "8",
+        "threads": "16",
+        "cache": "16 MB",
+        "pic1": "assets/I7/i71.jpg",
+        "pic2": "assets/I7/i72.png",
+        "pic3": "assets/I7/i73.png",
+        "thumbp": "assets/i71.jpg",
+        "p1": 71,
+        "p2": 72,
+        "p3": 73 
+
+    },
+
+ 
+    {
+        "hardware": "CPU",
+        "brand": "Intel®",
+        "subBrand": "Intel® Core™ I9",
+        "model": "Core™ I9-11900K",
+        "name": "Core™ I9-11900k Socket 1200 Gen 11",
+        "id": "I9",
+        "price": 79800,
+        "baseFrec": "3,50 GHz",
+        "turboFrec": "5,30 GHz",
+        "cores": "8",
+        "threads": "16",
+        "cache": "16 MB",
+        "pic1": "assets/I9/i91.png",
+        "pic2": "assets/I9/i92.png",
+        "pic3": "assets/I9/i93.png",
+        "thumbp": "assets/i91.jpg",
+        "p1": 91,
+        "p2": 92,
+        "p3": 93
+
+    },
+
+    
+    {
+        "hardware": "CPU",
+        "brand": "AMD",
+        "subBrand": "AMD Ryzen™ 3",
+        "model": "Ryzen™ 3 3200G",
+        "name": "AMD Ryzen™ 3 3200G Socket AM4 Zen 2",
+        "id": "R3",
+        "price": 49000,
+        "baseFrec": "3,60 GHz",
+        "turboFrec": "4,00 GHz",
+        "cores": "4",
+        "threads": "4",
+        "cache": "4 MB",
+        "pic1": "assets/R3/r31.png",
+        "pic2": "assets/R3/r32.png",
+        "pic3": "assets/R3/r33.png",
+        "thumbp": "assets/ryzen3.jpg",
+        "p1": "r31",
+        "p2": "r32",
+        "p3": "r33"
+
+    },
+
+    {
+        "hardware": "CPU",
+        "brand": "AMD",
+        "subBrand": "AMD Ryzen™ 5",
+        "model": "Ryzen™ 5 5600X",
+        "name": "AMD Ryzen™ 5 5600X Socket AM4 Zen 3",
+        "id": "R5",
+        "price": 36800,
+        "baseFrec": "3,70 GHz",
+        "turboFrec": "4,60 GHz",
+        "cores": "6",
+        "threads": "12",
+        "cache": "32 MB",
+        "pic1": "assets/R5/r51.png",
+        "pic2": "assets/R5/r52.png",
+        "pic3": "assets/R5/r53.png",
+        "thumbp": "assets/ryzen5.png",
+        "p1": "r51",
+        "p2": "r52",
+        "p3": "r53"
+
+    },
+
+    {
+        "hardware": "CPU",
+        "brand": "AMD",
+        "subBrand": "AMD Ryzen™ 7",
+        "model": "Ryzen™ 7 5800X",
+        "name": "AMD Ryzen™ 7 5800X Socket AM4 Zen 3",
+        "id": "R7",
+        "price": 53500,
+        "baseFrec": "3,80 GHz",
+        "turboFrec": "4,70 GHz",
+        "cores": "8",
+        "threads": "16",
+        "cache": "32 MB",
+        "pic1": "assets/R7/r71.png",
+        "pic2": "assets/R7/r72.png",
+        "pic3": "assets/R7/r73.png",
+        "thumbp": "assets/ryzen71.jpg",
+        "p1": "r71",
+        "p2": "r72",
+        "p3": "r73"  
+
+    },
+
+    {
+        "hardware": "CPU",
+        "brand": "AMD",
+        "subBrand": "AMD Ryzen™ 9",
+        "model": "Ryzen™ 9 5950X",
+        "name": "AMD Ryzen™ 9 5950X Socket AM4 Zen 3",
+        "id": "R9",
+        "price": 111920,
+        "baseFrec": "3,40 GHz",
+        "turboFrec": "4,90 GHz",
+        "cores": "16",
+        "threads": "32",
+        "cache": "64 MB",
+        "pic1": "assets/R9/r91.png",
+        "pic2": "assets/R9/r92.png",
+        "pic3": "assets/R9/r93.png",
+        "thumbp": "assets/ryzen91.jpg",
+        "p1": "r91",
+        "p2": "r92",
+        "p3": "r93"  
+
+    },
+
+    
+    {
+        "hardware": "GPU",
+        "brand": "Nvidia",
+        "subBrand": "GeForce RTX™",
+        "model": "GeForce RTX™ 3060",
+        "name": "Nvidia GeForce RTX™ 3060",
+        "id": "G6",
+        "price": 145000,
+        "baseFrec": "1320 MHz",
+        "turboFrec": "1780 MHz",
+        "vram": "12 GB GDDR6",
+        "rVram": "14 Gbps",
+        "bus": "192 bits",
+        "pic1": "assets/3060/n61.png",
+        "pic2": "assets/3060/n62.png",
+        "pic3": "assets/3060/n63.png",
+        "thumbp": "assets/r3060.png",
+        "p1": "g61",
+        "p2": "g62",
+        "p3": "g63"  
+
+    },
+
+    {
+        "hardware": "GPU",
+        "brand": "Nvidia",
+        "subBrand": "GeForce RTX™",
+        "model": "GeForce RTX™ 3070",
+        "name": "Nvidia GeForce RTX™ 3070",
+        "id": "G7",
+        "price": 225000,
+        "baseFrec": "1500 MHz",
+        "turboFrec": "1730 MHz",
+        "vram": "8 GB GDDR6",
+        "rVram": "14 Gbps",
+        "bus": "320 bits",
+        "pic1": "assets/3070/n71.png",
+        "pic2": "assets/3070/n72.png",
+        "pic3": "assets/3070/n73.png",
+        "thumbp": "assets/r3070.png",
+        "p1": "g71",
+        "p2": "g72",
+        "p3": "g73"  
+
+    },
+
+
+    {
+        "hardware": "GPU",
+        "brand": "Nvidia",
+        "subBrand": "GeForce RTX™",
+        "model": "GeForce RTX™ 3080",
+        "name": "Nvidia GeForce RTX™ 3080",
+        "id": "G8",
+        "price": 295000,
+        "baseFrec": "1440 MHz",
+        "turboFrec": "1740 MHz",
+        "vram": "10 GB GDDR6X",
+        "rVram": "19 Gbps",
+        "bus": "256 bits",
+        "pic1": "assets/3080/n81.png",     
+        "pic2": "assets/3080/n82.png",
+        "pic3": "assets/3080/n83.png",
+        "thumbp": "assets/r3080.png",
+        "p1": "g81",
+        "p2": "g82",
+        "p3": "g83"  
+    },
+
+
+    {
+        "hardware": "GPU",
+        "brand": "Nvidia",
+        "subBrand": "GeForce RTX™",
+        "model": "GeForce RTX™ 3090",
+        "name": "Nvidia GeForce RTX™ 3090",
+        "id": "G9",
+        "price": 559280,
+        "baseFrec": "1400 MHz",
+        "turboFrec": "1700 MHz",
+        "vram": "24 GB GDDR6X",
+        "rVram": "19.5 Gbps",
+        "bus": "384 bits",
+        "pic1": "assets/3090/n91.png",
+        "pic2": "assets/3090/n92.png",
+        "pic3": "assets/3090/n93.png",
+        "thumbp": "assets/r3090.png",
+        "p1": "g91",
+        "p2": "g92",
+        "p3": "g93"
+
+    },
+
+    {
+        "hardware": "GPU",
+        "brand": "Radeon",
+        "subBrand": "AMD Radeon™",
+        "model": "Radeon™ 6700XT",
+        "name": "AMD Radeon™ 6700XT",
+        "id": "Radeon7",
+        "price": 194500,
+        "baseFrec": "2424 MHz",
+        "turboFrec": "2581 MHz",
+        "vram": "12 GB GDDR6",
+        "rVram": "16 Gbps",
+        "bus": "192 bits",
+        "pic1": "assets/6700/x71.png",
+        "pic2": "assets/6700/x72.png",
+        "pic3": "assets/6700/x73.png",
+        "thumbp": "assets/radeonlogo.png",
+        "p1": "ra71",
+        "p2": "rag72",
+        "p3": "rag73"  
+
+    },
+
+    
+    {
+        "hardware": "GPU",
+        "brand": "Radeon",
+        "subBrand": "AMD Radeon™",
+        "model": "Radeon™ 6800",
+        "name": "AMD Radeon™ 6800",
+        "id": "Radeon8",
+        "price": 300000,
+        "baseFrec": "1815 MHz",
+        "turboFrec": "2105 MHz",
+        "vram": "16 GB GDDR6",
+        "rVram": "16 Gbps",
+        "bus": "256 bits",
+        "pic1": "assets/6800/x81.png",
+        "pic2": "assets/6800/x82.png",
+        "pic3": "assets/6800/x83.png",
+        "thumbp": "assets/radeonlogo.png",
+        "p1": "ra81",
+        "p2": "rag82",
+        "p3": "rag83"    
+
+    },
+
+
+    {
+        "hardware": "GPU",
+        "brand": "Radeon",
+        "subBrand": "AMD Radeon™",
+        "model": "Radeon™ 6800XT",
+        "name": "AMD Radeon™ 6800XT",
+        "id": "Radeon8XT",
+        "price": 310000,
+        "baseFrec": "2015 MHz",
+        "turboFrec": "2250 MHz",
+        "vram": "16 GB GDDR6",
+        "rVram": "16 Gbps",
+        "bus": "256 bits",
+        "pic1": "assets/6800/x81.png",
+        "pic2": "assets/6800/x82.png",
+        "pic3": "assets/6800/x83.png",
+        "thumbp": "assets/radeonlogo.png",
+        "p1": "raxt81",
+        "p2": "raxtg82",
+        "p3": "raxtg83"   
+
+    },
+
+
+    {
+        "hardware": "GPU",
+        "brand": "Radeon",
+        "subBrand": "AMD Radeon™",
+        "model": "Radeon™ 6900XT",
+        "name": "AMD Radeon™ 6900XT",
+        "id": "Radeon9",
+        "price": 415000,
+        "baseFrec": "2015 MHz",
+        "turboFrec": "2250 MHz",
+        "vram": "16 GB GDDR6",
+        "rVram": "16 Gbps",
+        "bus": "256 bits",
+        "pic1": "assets/6900/x91.png",
+        "pic2": "assets/6900/x92.png",
+        "pic3": "assets/6900/x93.png",
+        "thumbp": "assets/radeonlogo.png",
+        "p1": "ra91",
+        "p2": "rag92",
+        "p3": "rag93"   
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "HyperX",
+        "model": "Cloud Flight",
+        "id": "hcf1",
+        "price": 16000,
+        "pic1": "assets/cloudFlight.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "Astro",
+        "model": "A50",
+        "id": "A50",
+        "price": 34000,
+        "pic1": "assets/Astro.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "HyperX",
+        "model": "QuadCast",
+        "id": "hqc",
+        "price": 17900,
+        "pic1": "assets/quadcast.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "Shure",
+        "model": "SM7B",
+        "id": "sm7b",
+        "price": 112670,
+        "pic1": "assets/shure.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "Logitech",
+        "model": "C920",
+        "id": "c920",
+        "price": 12000,
+        "pic1": "assets/c920.png"
+        
+
+    },
+
+
+    
+    {
+        "hardware": "peripherals",
+        "brand": "Logitech",
+        "model": "Brio PRO 4K",
+        "id": "brio",
+        "price": 28500,
+        "pic1": "assets/brio.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "ElGato",
+        "model": "Stream Deck Mini",
+        "id": "deckM",
+        "price": 11989,
+        "pic1": "assets/deck.png"
+        
+
+    },
+
+
+    {
+        "hardware": "peripherals",
+        "brand": "Xbox",
+        "model": "One Controller",
+        "id": "xoc",
+        "price": 13500,
+        "pic1": "assets/xbox.png"
+        
+
+    },
+
+    {
+        "hardware": "perpNew",
+        "brand": "Razer",
+        "model": "Hunstman Tournament Edition",
+        "id": "rhte",
+        "price": 36699,
+        "pic1": "aassets/HE/h1.png"        
+
+    },
+
+    {
+        "hardware": "perpNew",
+        "brand": "Razer",
+        "model": "Viper Ultimate",
+        "id": "rvu",
+        "price": 24190,
+        "pic1": "aassets/HE/h1.png"
+
+
+    },
+
+    {
+
+
+        "hardware": "notebook",
+        "brand": "HP",
+        "model": "240 G7",
+        "id": "hp240",
+        "price": 69999,
+        "proc": "Intel Celeron N4000",
+        "screen": "14' 1366x768",
+        "graphic": "Intel UHD Graphics 600",
+        "memory": "8GB RAM, 500GB HDD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/hp240.png"
+
+
+    },
+
+
+    {
+
+
+        "hardware": "notebook",
+        "brand": "Lenovo",
+        "model": "IdeaPad 14IIL05",
+        "id": "l05",
+        "price": 97500,
+        "proc": "Intel I5 1035G1",
+        "screen": "14' 1920x1080",
+        "graphic": "Intel UHD Graphics",
+        "memory": "8GB RAM, 512GB SSD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/1lenovo.png"
+
+
+    },
+
+    
+    {
+
+
+        "hardware": "notebook",
+        "brand": "HP",
+        "model": "Omen 15-EK0062LA",
+        "id": "k00",
+        "price": 216999,
+        "proc": "Intel I7 10750H",
+        "screen": "14' 1920x1080",
+        "graphic": "Nvidia GeForce GTX 1650TI",
+        "memory": "8GB RAM, 512GB SSD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/hpOmen.png"
+
+
+    },
+
+        
+    {
+
+
+        "hardware": "notebook",
+        "brand": "MSI",
+        "model": "GS66 Stealth",
+        "id": "gs66",
+        "price": 669000,
+        "proc": "Intel I9 10980HK",
+        "screen": "15.6' 1920x1080 240Hz",
+        "graphic": "Nvidia GeForce RTX 2070 Super",
+        "memory": "32GB RAM, 1TB SSD",
+        "so": "Windows 10 Pro",
+        "pic1": "assets/gs66.png"
+
+
+    },
+
+
+    {
+
+
+        "hardware": "pc",
+        "brand": "PC",
+        "model": "Gamer económico",
+        "id": "pcge",
+        "price": 41999,
+        "proc": "AMD A6 7480 X6",
+        "graphic": "Radeon R5 Integrada",
+        "memory": "8GB RAM, 240GB SSD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/pc.png"
+
+
+    },
+
+
+    {
+
+
+        "hardware": "pc",
+        "brand": "PC",
+        "model": "Gamer gama media",
+        "id": "pcgm",
+        "price": 169999,
+        "proc": "Intel I5 9400F",
+        "graphic": "Nvida GeForce GTX 1650",
+        "memory": "16GB RAM, 1TB HDD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/pc.png"
+
+
+    },
+    
+
+    {
+
+
+        "hardware": "pc",
+        "brand": "PC",
+        "model": "Gamer gama alta",
+        "id": "pcga",
+        "price": 216999,
+        "proc": "AMD Ryzen 5 5600X",
+        "graphic": "Nvida GeForce RTX 3060",
+        "memory": "16GB RAM, 960GB SSD",
+        "so": "Windows 10 Home",
+        "pic1": "assets/pc.png"
+
+
+    },
+
+
+    {
+
+
+        "hardware": "pc",
+        "brand": "PC",
+        "model": "Gamer gama deluxe",
+        "id": "pcgu",
+        "price": 756248,
+        "proc": "AMD Ryzen 7 5800X",
+        "graphic": "Nvida GeForce RTX 3080",
+        "memory": "16GB RAM, 1TB SDD",
+        "so": "Windows 10 Pro",
+        "pic1": "assets/pc.png"
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+]

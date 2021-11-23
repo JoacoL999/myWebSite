@@ -1,6 +1,9 @@
 
+var demora = window.setInterval(lerolero, 3000);
 
-$(document).ready(function(){
+
+function lerolero() {
+     
 
     $(".tb").hover(function(){
     
@@ -28,4 +31,4 @@ $(document).ready(function(){
     });
     });
     
-    });
+    };
