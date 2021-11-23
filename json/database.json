@@ -478,7 +478,7 @@
         "model": "Hunstman Tournament Edition",
         "id": "rhte",
         "price": 36699,
-        "pic1": "aassets/HE/h1.png"        
+        "pic1": "assets/HE/h1.png"        
 
     },
 
@@ -488,7 +488,7 @@
         "model": "Viper Ultimate",
         "id": "rvu",
         "price": 24190,
-        "pic1": "aassets/HE/h1.png"
+        "pic1": "assets/VU/v1.png"
 
 
     },
