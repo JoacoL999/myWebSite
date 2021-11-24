@@ -502,7 +502,7 @@ $(document).ready(function() {
                                     <div class="bg-secondary d-flex">
                                         <img src="${note.pic1}" class="w-75 mx-auto my-4" alt="${note.model}">
                                     </div>
-                                    <h5 class=" text-center text-light title-ita bg-newdark py-2 m-0">HP 240 G7</h5>
+                                    <h5 class=" text-center text-light title-ita bg-newdark py-2 m-0">${note.brand} `+` ${note.model}</h5>
                                     <ul class="text-grey">
                                         <li>Procesador
                                             <ul>
